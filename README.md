@@ -8,6 +8,10 @@ this is not serious project, this to learn git and hosting on git.
 - Add, delete, and mark tasks as completed
 - Clean and responsive user interface
 
+## Live Demo
+
+[View the live app here](https://tanujsharma911.github.io/To-do-app/)
+
 ## Installation
 
 1. **Clone the repository:**
@@ -26,7 +30,3 @@ this is not serious project, this to learn git and hosting on git.
       ```
 
 No additional installation is required.
-
-## Live Demo
-
-[View the live app here](https://tanujsharma911.github.io/To-do-app/)
