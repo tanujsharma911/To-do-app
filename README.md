@@ -1,6 +1,7 @@
 # Simple To-Do List App
 
 This is a simple to-do list application built using **HTML**, **CSS**, and **JavaScript**.
+this is not serious project, this to learn git and hosting on git.
 
 ## Features
 
