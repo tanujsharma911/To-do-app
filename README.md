@@ -29,4 +29,4 @@ No additional installation is required.
 
 ## Live Demo
 
-[View the live app here]([https://tanujsharma911.github.io/To-do-app/])
+[View the live app here](https://tanujsharma911.github.io/To-do-app/)
