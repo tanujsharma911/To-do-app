@@ -1,0 +1,31 @@
+# Simple To-Do List App
+
+This is a simple to-do list application built using **HTML**, **CSS**, and **JavaScript**.
+
+## Features
+
+- Add, delete, and mark tasks as completed
+- Clean and responsive user interface
+
+## Installation
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/yourusername/simple-todo-list.git
+    ```
+2. **Navigate to the project directory:**
+    ```bash
+    cd simple-todo-list
+    ```
+3. **Open `index.html` in your browser:**
+    - Double-click `index.html`
+    - or run:
+      ```bash
+      open index.html
+      ```
+
+No additional installation is required.
+
+## Live Demo
+
+[View the live app here](https://your-live-demo-url.com)
