@@ -1,0 +1,116 @@
+/* .open-sans-<uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  } */
+
+* {
+  font-family: "Open Sans", sans-serif;
+  padding: 0px;
+  margin: 0;
+  color: rgb(237, 237, 237);
+  background-color: rgb(25, 25, 25);
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(25, 25, 25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  margin-bottom: 30px;
+}
+#wrapper {
+  margin-top: 200px;
+  width: 100vw;
+  height: 100vh;
+  max-width: 800px;
+}
+#addList {
+  margin-left: 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(237, 237, 237);
+  color: rgb(25, 25, 25);
+  font-weight: bold;
+}
+input[type="text"] {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(51, 51, 51);
+  border: 0;
+  color: rgb(237, 237, 237);
+}
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: none;
+}
+ul{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+li label{
+    margin-left: 10px;
+    background-color: rgba(255, 0, 0, 0);
+    cursor: pointer;
+    align-self: center;
+}
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    accent-color: rgb(25, 25, 25);
+}
+  
+li input{
+
+    cursor: pointer;
+}
+li:hover{
+    background-color: rgb(51, 51, 51);
+}
+.deleteListBtn{
+    display: none;
+    margin-left: auto;
+    margin-right: 5px;
+    border: 0;
+    background-color: rgba(255, 0, 0, 0);
+    color: rgb(237, 237, 237);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.closeIcon{
+    height: 20px;
+    background-color: transparent;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}li:hover .deleteListBtn .closeIcon{
+    height: 20px;
+    display: flex;
+}
+li:hover .deleteListBtn{
+    display: block;
+}
