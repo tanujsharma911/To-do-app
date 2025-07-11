@@ -16,7 +16,7 @@ this is not serious project, this to learn git and hosting on git.
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/simple-todo-list.git
+    git clone https://github.com/tanujsharma911/simple-todo-list.git
     ```
 2. **Navigate to the project directory:**
     ```bash
